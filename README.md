@@ -1,5 +1,5 @@
-# The expected results of this project are:
-• Buyers will be able to search for their expected bikes and find their bike within a short time.
+#The expected results of this project are:
+###Buyers will be able to search for their expected bikes and find their bike within a short time.
 • Buyers will be able to compare make, model, configuration, prices, etc. in a short time.
 • Users will be able to see all bike categories without any hassle
 • Customers will be able to inquire about the current price list of their manufactured products.
