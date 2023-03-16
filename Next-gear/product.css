@@ -1,0 +1,288 @@
+.search-box{
+    margin-top: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+
+}
+#search{
+    outline: none;
+    height: 40px;
+    border-radius: 10px ;
+    width: 400px;
+    border: 3px solid grey;
+    box-shadow: 0 0 5px  rgb(0.0.0.8);
+}
+#match-list{
+    margin-top: 40px;
+    /* border: 2px solid gray; */
+}
+.card1{
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 10px 10px grey;
+    padding: 13px;
+}
+.card1 h3{
+    color: black;
+}
+#match-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 40px;
+}
+.card2{
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+.product-img2{
+height: 450px;
+width: 450px;
+padding: 10px;
+border: 1px solid coral;
+box-shadow:0 0 5px 5px  coral;
+}
+.product-img2:hover{
+    height: 550px;
+    width: 550px;
+    padding: 0px;
+    border: 1px solid coral;
+    box-shadow:0 0 5px 5px  rgb(0.0.0.8);
+    transition: 0.4s all ease;
+    }
+.prices{
+    width: 700px;
+    border-top: 3px solid coral;
+    border-top-style:dashed;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.prices1{
+    width: 700px;
+  
+
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.prices2{
+    width: 700px;
+  
+
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.prices1 h4{
+    border: 2px solid rgb(0.0.0.8);
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px rgb(0.0.0.8);
+    padding: 25px;
+    margin-bottom:1px;
+   
+}
+.prices2 h4{
+    border: 2px solid rgb(0.0.0.8);
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px rgb(0.0.0.8);
+    padding: 25px;
+    margin-bottom:20px;
+   
+}
+.prices1 h4 a{
+    text-decoration: none;
+}
+.prices2 h4 a{
+    text-decoration: none;
+}
+.dynamic{
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: coral;
+}
+.card3{
+    padding: 20px;
+    border: 2px solid gray;
+    box-shadow:0 0 3px 3px  rgb(0.0.0.7); 
+}
+.card3 h3{
+    color: black;
+}
+.card3 h4{
+    border-bottom: 2px solid brown;
+}
+.card3 h4:hover{
+    border-bottom: 2px solid rgb(0.0.0.8);
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease;
+}
+.card3 span{
+    /* border-right: 2px solid brown; */
+}
+.prices span{
+    color: coral;
+    font-weight: 700;
+    margin-bottom:40px;
+}
+.prices a{
+    text-decoration: none;
+    color:darkblue;
+}
+.prices h4{
+    border: 2px solid rgb(0.0.0.8);
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px rgb(0.0.0.8);
+    padding: 25px;
+    margin-bottom:20px;
+   
+}
+.yes{
+    width: 40px;
+    height:30px;
+    color: white;
+    background-color:green;
+    border-radius: 20%;
+    margin-left: 90%;
+    padding: 3px;
+
+}
+.no{
+    width: 30px;
+    height:30px;
+    color: white;
+    background-color: red;
+    border-radius: 20%;
+    margin-left: 90%;
+    padding: 3px;
+}
+#compare-btn{
+    width: 180px;
+    padding: 7px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   margin: auto;
+   margin-top: 40px;
+    background-color:chocolate;
+    outline-style: none;
+    border-radius: 14px;
+   text-align: center;
+   transition: 0.5s ease;
+}
+#compare-btn:hover{
+    font-weight: 500;
+    background-color:darkgreen;
+}
+#compare-bike{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+}
+/* #select:hover{
+    border: 2px solid black;
+} */
+.check{
+    width:40px;
+}
+#not-selected{
+    text-align: center;
+    outline: none;
+ 
+   
+   position: sticky;
+}
+#not-selected1{
+   
+    color: white;
+    font-size: 20px;
+    background-color: brown;
+    padding:6px;
+    border-radius: 20px;
+}
+.compare{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+}
+.compare1{
+    margin-top: 70px;
+    padding-left: -40px;
+    
+}
+
+#details-btn1{
+    position: absolute;
+    top:-180px;
+    left:43%;
+    width: 300px;
+    font-weight: 700;
+    margin: 200px auto;
+    color: white;
+    background-color:chocolate;
+    outline-style: none;
+    border-radius: 14px;
+   text-align: center;
+}
+#details-btn1:hover{
+    font-weight: 500;
+    background-color:darkgreen;
+}
+.compare3{
+    padding: 70px;
+    width:60%;
+    border: 2px solid gray;
+    box-shadow:0 0 3px 3px  rgb(0.0.0.7); 
+}
+.compare3 h4{
+    border-bottom: 2px solid brown;
+}
+.compare3 h3{
+    color: black;
+}
+
+.compare3 h4:hover{
+    border-bottom: 2px solid rgb(0.0.0.8);
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease;
+}
+.prices3 span{
+    color: coral;
+    font-weight: 700;
+    margin-bottom:40px;
+}
+.prices3 a{
+    text-decoration: none;
+    color:darkblue;
+}
+.prices3 h4{
+    width: 60%;
+    border: 2px solid rgb(0.0.0.8);
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px rgb(0.0.0.8);
+    padding: 25px;
+    margin-bottom:20px;
+   
+}
+#second-bike{
+    border-right: 6px dotted coral;
+}
+.prices3{
+    width: 700px;
+    
+
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
